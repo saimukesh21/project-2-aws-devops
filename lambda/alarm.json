@@ -1,0 +1,19 @@
+{
+  "AlarmName": "project-2-ec2-high-cpu",
+  "AlarmDescription": "Project 2 EC2 high CPU alarm",
+  "ActionsEnabled": true,
+  "MetricName": "CPUUtilization",
+  "Namespace": "AWS/EC2",
+  "Statistic": "Average",
+  "Period": 300,
+  "EvaluationPeriods": 1,
+  "Threshold": 70,
+  "ComparisonOperator": "GreaterThanThreshold",
+  "Dimensions": [
+    {
+      "Name": "InstanceId",
+      "Value": "i-0d7eed7259df62806"
+    }
+  ],
+  "TreatMissingData": "notBreaching"
+}

@@ -1,0 +1,22 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+
+# Sensitive files
+*.tfvars
+*.tfvars.json
+.env
+*.pem
+*.key
+
+# Lambda packages
+lambda/*.zip
+
+# Ansible
+*.retry
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/

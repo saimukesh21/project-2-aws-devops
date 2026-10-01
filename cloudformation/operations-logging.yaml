@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+
+Description: >
+  CloudFormation component for Project 2 AWS DevOps operations logging.
+
+Resources:
+
+  OperationsLogGroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      LogGroupName: /project-2/operations
+      RetentionInDays: 7
+
+Outputs:
+
+  LogGroupName:
+    Description: CloudWatch Logs group created by CloudFormation
+    Value: !Ref OperationsLogGroup
