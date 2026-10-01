@@ -674,5 +674,37 @@ Manually created AWS resources such as EventBridge rules, Lambda resources, SNS 
 
 This project is a learning and portfolio project created to demonstrate AWS and DevOps infrastructure, automation, monitoring, and operational practices.
 
+## Evidence & Screenshots
 
+### Terraform Infrastructure
+![Terraform Outputs](docs/Screenshots/01-terraform-outputs.png)
+
+### EC2 Instance
+![EC2 Running](docs/Screenshots/02-ec2-running.png)
+
+### AWS Systems Manager
+![SSM Online](docs/Screenshots/03-ssm-online..png)
+
+### Application Load Balancer
+![ALB Active](docs/Screenshots/04-alb-active.png)
+
+### ALB Target Health
+![ALB Target Healthy](docs/Screenshots/05-alb-target-healthy.png)
+
+### RDS MySQL
+![RDS Available](docs/Screenshots/06-rds-available.png)
+
+### CloudWatch & SNS
+![CloudWatch](docs/Screenshots/07-cloudwatch.png)
+![SNS](docs/Screenshots/07-sns.png)
+
+### EventBridge
+![EventBridge Start](docs/Screenshots/08-eventbridge-start.png)
+![EventBridge Stop](docs/Screenshots/09-eventbridge-stop.png)
+
+### Lambda
+![Lambda](docs/Screenshots/10-lambda.png)
+
+### CloudFormation
+![CloudFormation](docs/Screenshots/11-cloudformation.png)
 
